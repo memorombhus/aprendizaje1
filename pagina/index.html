@@ -10,54 +10,48 @@
 <body>
     <div class="container mt-5">
         <center><h3>Página de prueba con git</h3></center>
-        </br>
+        <br>
         <h4>Este es un formulario de registro</h4>
 
         <form>
-            <div class="row">
-                <div class="col-1">
-                    <label  class="form-label">Nombre:</label>
-                </div>
-                <div class="col-5">
-                    <input type="text" class="form-control"  required>
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <label  class="form-label">Primer apellido:</label>
-                </div>
-                <div class="col-5">
-                    <input type="text" class="form-control"  required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <label class="form-label">Segundo apellido:</label>
-                </div>
-                <div class="col-5">
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Nombre:</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" required>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-1">
-                    <label  class="form-label">Edad:</label>
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Primer apellido:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" required>
                 </div>
-                <div class="col-5">
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Segundo apellido:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Edad:</label>
+                <div class="col-sm-6">
                     <input type="number" class="form-control" id="edad" required>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-1">
-                    <label  class="form-label">Carrera:</label>
-                </div>
-                <div class="col-5">
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Carrera:</label>
+                <div class="col-sm-6">
                     <input type="text" class="form-control" required>
                 </div>
             </div>
-            <button type="submit" class="btn btn-outline-primary">Registrar</button>
+            <div class="row">
+                <center>
+                <div class="col-sm-3">
+                    <button type="submit" class="btn btn-outline-primary w-100">Registrar</button>
+                </div>
+            </center>
+            </div>
         </form>
     </div>
-
 </body>
 </html>
